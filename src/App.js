@@ -1,4 +1,4 @@
-import MovieContainer from './components/movieList/MovieContainer';
+import MovieContainer from './components/movieList/MovieContainer.style';
 
 function App() {
   return (
