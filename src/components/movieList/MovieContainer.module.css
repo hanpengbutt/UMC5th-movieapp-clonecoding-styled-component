@@ -1,7 +1,0 @@
-.movieContainer { 
-    width: 90vw;
-    display: grid;
-    grid-template-rows: repeat(auto, 1fr);
-    grid-template-columns: repeat(8, 1fr);
-    grid-gap: 20px;
-}
