@@ -19,11 +19,7 @@ function MovieItem({ title, voteAverage, overview, poster }) {
         <ItemTitle>{title}</ItemTitle>
         <div>{voteAverage}</div>
       </ItemInfo>
-      <MovieItemDetail
-        title={title}
-        overview={overview}
-        display={detail}
-      />
+      <MovieItemDetail title={title} overview={overview} display={detail} />
     </MovieItemWrapper>
   );
 }
