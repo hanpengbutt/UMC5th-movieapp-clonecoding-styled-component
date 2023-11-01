@@ -26,6 +26,16 @@ const MovieContainerWrapper = styled.div`
   grid-template-rows: repeat(auto, 1fr);
   grid-template-columns: repeat(8, 1fr);
   grid-gap: 20px;
+  @media screen and (max-width: 1530px) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  @media screen and (max-width: 1150px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media screen and (max-width: 768px) {
+    grid-gap: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 
 export default MovieContainer;
